@@ -6,6 +6,6 @@ const anoNascimento = 2003
 
 let listaCompras = []
 
-listaCompras.push("Maça")
+listaCompras.push("Maça")   
 
 console.log(listaCompras);
