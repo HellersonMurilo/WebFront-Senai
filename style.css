@@ -1,0 +1,35 @@
+body{
+    background-image: url(https://images7.alphacoders.com/695/thumbbig-695728.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container{
+    text-shadow: red -2px 0,
+                cyan 2px 0;
+    width: 190px;
+    color: white;
+    backdrop-filter: blur(10px);
+}
+
+.central{
+    text-align: center;
+    padding: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+label{
+    color: azure;
+}
+
+span{
+    color: azure;
+}
+
+h4{
+    color: azure;
+}

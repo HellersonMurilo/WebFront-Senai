@@ -5,12 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-   
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div id="container">
+    <div class="central">
+        <h1 id="container">
+        </h1>
+        <div class="container-central">
+            <span>Nome:</span><input id="nome" type="text">
+        </div>
+
+        <div class="email">
+            <label for="email">Email:</label>
+            <input id="email" type="text">
+        </div>
+
+        <div class="telefone">
+            <label for="telefone">Telefone:</label>
+            <input id="telefone" type="text">
+            
+        </div>
+        <button onclick="salvar()" type="submit">Salvar</button>
+        <div class="resultados">
+            <h4 id="resultado"></h4>
+            <h4 id="emailCliente"></h4>
+            <h4 id="telefoneCliente"></h4>
+        </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 
