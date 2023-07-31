@@ -1,0 +1,5 @@
+.valores{
+    display: flex;
+    flex-direction: column;
+    width: 13.4%;
+}

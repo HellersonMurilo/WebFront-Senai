@@ -1,21 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora Js</title>
-</head>
-<body>
-    <label for="number">Numero 1</label>
-    <input type="number" id="number">
 
-    <label for="number2">Numero 2</label>
-    <input type="number2" id="number2">
-    <div class="container">
-        <button>Somar</button>
-        <button>Subtrair</button>
-        <button>Multiplicar</button>
-        <button>Dividir</button>
+    <link rel="stylesheet" href="calc.css">
+</head>
+
+<body>
+
+    <h1>Calculadora</h1>
+
+    <div class="valores">
+        <label for="number">Numero 1</label>
+        <input type="number" id="number">
+
+        <label for="number2">Numero 2</label>
+        <input type="number" id="number2">
     </div>
+    
+    <div class="container">
+        <button type="button" onclick="calculo('+')">Somar</button>
+        <button type="button" onclick="calculo('-')">Subtrair</button>
+        <button type="button" onclick="calculo('*')">Multiplicar</button>
+        <button type="button" onclick="calculo('/')">Dividir</button>
+    </div>
+
+    <div class="resultado">
+        <h1>Resultado</h1>
+        <h2 id="resultado"></h2>
+    </div>
+
+    <div class="designer">
+    </div>
+
+    <script src="calc.js"></script>
 </body>
+
 </html>
