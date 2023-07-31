@@ -16,8 +16,10 @@ function calculo(operacao) {
             resultado.style.color = "red"
         }else if (finalResult >= 50 && finalResult <= 99) {
             resultado.style.color = "blue"
-        }else if (finalResult ) {
+        }else if (finalResult >= 100) {
             resultado.style.color= "green"
+        }else{
+            resultado.style.color = "black"
         }
 
     }catch (error){
